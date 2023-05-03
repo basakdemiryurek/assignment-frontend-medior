@@ -84,7 +84,7 @@ export const Main = () => {
     }
   }, [fetchProductsAndTags, products]);
 
-  console.log("wtf");
+
   const isLoading =
     fruitsLoading ||
     vegetablesLoading ||
